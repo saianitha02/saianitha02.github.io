@@ -1,0 +1,28 @@
+---
+title: "LT1_ChepaSaiAnithaRani_2022H1540847P"
+author: "SaiAnitha"
+date: "2022-11-19"
+output: github_document
+---
+
+## 
+
+# **Python & R in markdown file**
+
+## **Running R inside Rmarkdown**
+
+R & Rstudio can be used to run Python code as well, for this you need to have the python interpreter installed in your system. Here is a r markdown file which runs both R & Python.
+
+```{r}
+for(i in 1:4){ # R syntax to implement a for loop
+    i = i + 2 # R's syntax for increment by 1
+    cat(i,'\n')}
+```
+
+## **Running Python inside Rmarkdown**
+
+```{python}
+for i in range(1,5): # For loop for range 2 to 4
+    i += 2 # Python allows shorthand increment syntax
+    print(i)
+```

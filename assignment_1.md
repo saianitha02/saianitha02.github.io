@@ -1,0 +1,41 @@
+sai_anitha
+================
+sai_anitha
+2022-11-24
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax
+for authoring HTML, PDF, and MS Word documents. For more details on
+using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that
+includes both content as well as the output of any embedded R code
+chunks within the document. You can embed an R code chunk like this:
+
+``` r
+for(i in 1:4){ # R syntax to implement a for loop
+    i = i + 2 # R's syntax for increment by 1
+    cat(i,'\n')}
+```
+
+    ## 3 
+    ## 4 
+    ## 5 
+    ## 6
+
+## **Running Python inside Rmarkdown**
+
+``` python
+for i in range(1,5): # For loop for range 2 to 4
+    i += 2 # Python allows shorthand increment syntax
+    print(i)
+```
+
+    ## 3
+    ## 4
+    ## 5
+    ## 6
+
+Note that the `echo = FALSE` parameter was added to the code chunk to
+prevent printing of the R code that generated the plot.

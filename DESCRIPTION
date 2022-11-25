@@ -1,0 +1,10 @@
+Package: saianitha02
+Type: Package
+Title: Circumference of a circle
+Version: 0.0.1
+Authors@R: person("Sai_Anitha", "Chepa", email = "h20220847@pilani.bits-pilani.ac.in", role = c("aut", "cre"))
+Description: This package provides functions to perform operation such as circumference of a circle
+Depends: R (>= 3.1.0)
+License: GNU General Public License v3.0
+RoxygenNote: 7.2.2
+Encoding: UTF-8
